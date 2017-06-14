@@ -1,0 +1,2 @@
+# sec
+Simplified Educational Computer
