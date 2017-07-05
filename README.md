@@ -1,6 +1,16 @@
 # Sec Development Environment
 The Simplified Educational Computer is an immaginary microprocessor invented to teach students how the computer works. This program lets you to write and execute in an emulated environment the sec-assembler code.
 
+## Installing from source package
+This program is distributed as binary for amd64 architectures via the .run file, but if you want this program to run on other architectures you need to build it.
+* Download and extract the .tar.gz file
+* Enter on the **interpreter** directory
+* Run ``make`` and ``sudo make install``
+* Return back and enter on the **ide** directory
+* Run ``qmake -qt=5``
+* Run ``make`` and ``sudo make install``
+* Open the application with ``secide`` command
+
 ## Example
 This is an example program that calculates the moltiplication between 4 and 7:
 ```assembly
