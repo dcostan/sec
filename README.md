@@ -11,6 +11,10 @@ This program is distributed as binary for amd64 architectures via the .run file,
 * Run ``make`` and ``sudo make install``
 * Open the application with ``secide`` command or from the dash
 
+## Binary for old linux distros
+The latest binary is based on Qt 5.11 and requires a version of GLibC equal or higher than 2.25. Ancient linux distros, like Ubuntu 16.04, are based on an older GLibC version and so you need to install a previous version of the Sec IDE package
+*[SecInstaller_x86.run (old)](https://github.com/dcostan/sec/raw/53aec13261d40f423223d1ce23dee651095fd9c7/SecInstaller_x64.run)
+
 ## Example
 This is an example program that calculates the moltiplication between 4 and 7:
 ```assembly
